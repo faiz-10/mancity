@@ -1,9 +1,13 @@
 import React from "react";
+import home from './image/home.jpg'
+import away from './image/away.jpg'
 
 export default function Product(props) {
   return (
     <div className="row mt-3">
       <div className="col-5">
+        <img src={home} width='100px'/>
+        <img src={away} width='100px'/>
         <h2>
           {props.product.name}
           <span className="badge bg-secondary">${props.product.price}</span>

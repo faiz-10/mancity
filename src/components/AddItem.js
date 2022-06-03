@@ -15,6 +15,7 @@ class AddItem extends React.Component {
           e.preventDefault();
         this.props.addItem(this.state.productName,  Number(this.state.productPrice))
     }}>
+      <h3>Shop</h3>
         <div className="mb-3 col-4">
           <label htmlFor="inputName" className="form-label">
             Name

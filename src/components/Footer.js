@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer(props) {
   return (
-    <div className='row fixed-bottom'>
+    <div className='row px-5'>
         <button className='btn btn-danger col-3' onClick={()=> props.resetAmt()}>Reset</button>
         <div className='col-6 bg-dark text-white text-center'>
             {props.totalAmt} 

@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList.js";
 import Footer from "./components/Footer.js"
 import AddItem from "./components/AddItem";
+import Slider from "./components/Slider";
 
 function App() {
   const products = [
@@ -73,7 +74,7 @@ function App() {
   return (
     <>
       <Navbar />
-
+      <Slider />
       <main className="container mt-5">
         <AddItem addItem={addItem}/>
         <ProductList
